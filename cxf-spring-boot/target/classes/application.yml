@@ -1,0 +1,8 @@
+server:
+  port: 9999
+spring:
+  main:
+    allow-bean-definition-overriding: true
+# cxf相关配置,默认路径为/services
+cxf:
+  path: /ws
